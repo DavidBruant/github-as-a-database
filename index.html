@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="referrer" content="same-origin">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <title> Github as a database demo </title>
+        
+        <meta name="description" content=" ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script crossorigin="anonymous" src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+
+        <link rel="stylesheet" href="https://rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap-reboot.css">
+
+        <style>
+            body{
+                padding: 0 20%;
+            }
+
+            form{
+                display: flex;
+                flex-direction: row;
+            }
+
+            textarea{
+                width: 35em;
+                height: 100vh;
+                margin-right: 1em;
+
+                border: 1px solid #CCC;
+                padding: 0.5em;
+
+            }
+
+            .uploads{
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
+
+        <script>
+        'use strict';
+
+        document.addEventListener('DOMContentLoaded', e => {
+            
+            throw `TODO
+            - deploy the 'demo' branch
+            - create a machine account
+                - add as collaborator
+                - create a personal access token
+            - save the content to github on 'save' click
+            `
+
+        })
+        
+        </script>
+
+    </head>
+    <body>
+        <h1>Github as a database demo</h1>
+
+        <form>
+            <textarea placeholder="Write markdown here"></textarea>
+            <div class="uploads">
+                <input type=file>
+                <input type=file>
+                <input type=file>
+
+                <button type="submit">Save</button>
+            </div>
+        </form>
+
+    </body>
+</html>
