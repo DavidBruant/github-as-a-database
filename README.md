@@ -7,13 +7,14 @@ This repository explores and documents the idea of using github as a database fo
 
 The classic architecture of a website is composed of a front-end, a back-end and a database. Information flows from the front-end (HTTP client) to the backend (HTTP server) to the database and back to the backend and back to the front-end
 
-TODO architecture picture
+![classic web architecture](images/Classic-architecture.svg)
 
 The proposed *github-as-a-database* architecture lets the developers focus on the client-side code of the application allowing to prototype the UI quickly by reducing the feedback loop between the developer and the end-user
 
 In this architecture, the developers write the client-side code, embed a [library](https://www.npmjs.com/package/github-api) interacting with the [Github API](https://developer.github.com/v3/) and that's how data is persisted to be later retrieved
 
-TODO architecture picture
+![Github as a database architecture](images/Github-as-a-database-architecture.svg)
+
 
 
 ## Trade-off
